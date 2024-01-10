@@ -6,6 +6,7 @@ import img3 from '../../Assets/img3.png'
 import img4 from '../../Assets/img4.png'
 import img5 from '../../Assets/img5.png'
 import img6 from '../../Assets/img6.png'
+import img7 from '../../Assets/img7.png'
 import { FaGithub } from "react-icons/fa";
 import { FaDisplay } from "react-icons/fa6";
 
@@ -25,6 +26,18 @@ const data = [
   {
     id: 2,
     image: img2,
+    github: 'https://github.com/VitorLucasX/trevor_dreams_react',
+    demo: 'https://trevor-dreams-react.vercel.app/',
+    title: 'Trevor Dreams',
+    desc: 'Dream travel package website',
+    tech1: 'Html',
+    tech2: 'ReactJS',
+    tech3: 'JavaScript',
+    tech4: 'Scss',
+  },
+  {
+    id: 3,
+    image: img3,
     github: 'https://github.com/VitorLucasX/galaxy_gallery_react',
     demo: 'https://galaxy-gallery-react.vercel.app/',
     title: 'Galaxy Gallery',
@@ -35,8 +48,8 @@ const data = [
     tech4: 'Scss',
   },
   {
-    id: 3,
-    image: img3,
+    id: 4,
+    image: img4,
     github: 'https://github.com/VitorLucasX/cinetag_react_sass_api',
     demo: 'https://cinetag-react-sass-api.vercel.app/',
     title: 'Cinetag',
@@ -47,8 +60,8 @@ const data = [
     tech4: 'ReactJs',
   },
   {
-    id: 4,
-    image: img4,
+    id: 5,
+    image: img5,
     github: 'https://github.com/VitorLucasX/work_with_us_pizzaria_react',
     demo: 'https://work-with-us-pizzaria-react-gusq.vercel.app/',
     title: 'Work With Us',
@@ -59,8 +72,8 @@ const data = [
     tech4: 'ReactJs',
   },
   {
-    id: 5,
-    image: img5,
+    id: 6,
+    image: img6,
     github: 'https://github.com/VitorLucasX/pomodoro_react_typescript_sass',
     demo: 'https://pomodoro-react-typescript-sass.vercel.app/',
     title: 'Pomodoro',
@@ -71,8 +84,8 @@ const data = [
     tech4: 'ReactJs',
   },
   {
-    id: 6,
-    image: img6,
+    id: 7,
+    image: img7,
     github: 'https://github.com/VitorLucasX/finance_control_react_sass',
     demo: 'https://finance-control-react-sass.vercel.app/',
     title: 'Finance Control',
